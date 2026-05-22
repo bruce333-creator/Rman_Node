@@ -116,3 +116,6 @@ Si vous avez ouvert le script avant de créer un nouveau PxrSurface, celui-ci ne
 
 Pourquoi mon PxrLayerSurface ne brille pas ?
 Lorsque vous créez et relier un PxrLayer Surface vous devez manuellement activer la primary specular, veuillez donc cliquer sur Enable dans l'onglet Primary Specular des PxrLayer1 et 2
+
+Pourquoi l'icône du script disparaît à chaque fois que j'ouvre Maya ?
+Si vous avez glisser déposer le script dans le viewport en étant dans l'onglet Renderman, ce dernier s'installera automatiquement dans l'onglet Renderman. Cela va causer un bug qui fera disparaître l'icône à chaque fois que vous fermererez Maya. C'est lié à Renderman qui charge ses icônes à chaque ouverture du logiciel. Veuillez donc glisser déposer le script dans le viewport en étant dans l'onglet Poly Modeling pour assurer une intsallation définitive.
